@@ -1,0 +1,50 @@
+.text{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-bottom:40px ;
+}
+
+.about{
+  background-color:black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.heading{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+  .headings{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 5px 0 10px 0;
+  }
+  .flex{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    gap: 30px;
+    justify-content: space-evenly;
+    line-height:normal;
+  }
+  
+  .flex>div>img{
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .flex{
+      flex-direction: column;
+      display: block;
+      margin: auto;
+      flex-direction: column;
+      width: 40%;
+   }
+
+
+  }

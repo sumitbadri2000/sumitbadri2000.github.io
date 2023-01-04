@@ -1,0 +1,49 @@
+.navbar{
+    overflow: hidden;
+    background-color: grey;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar>div{
+    font-size: 16px;
+    display: flex;
+  }
+  .navbar>div>a{
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar>div>a:hover {
+    color: white;
+    font-size: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .navbar>div{
+       font-size: 8px;
+       display: flex;
+       justify-content: flex-end;
+    }
+    .navbar>div>a{
+       display: block;
+       color: black;
+       text-align: center; 
+       padding: 12px 14px;  
+    }
+    .navbar{
+      justify-content: space-around;
+    } 
+  }
+
+  @media (max-width: 380px) {
+    .navbar>div{
+       font-size: 5px;
+    }
+    .navbar>div>a{
+       padding: 9px 8px;  
+    }
+  }
