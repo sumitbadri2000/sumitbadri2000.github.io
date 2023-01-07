@@ -1,6 +1,6 @@
 .navbar{
     overflow: hidden;
-    background-color: grey;
+    background-color: rgb(49, 49, 49);
     position: fixed;
     top: 0px;
     width: 100%;
@@ -13,12 +13,12 @@
   }
   .navbar>div>a{
     display: block;
-    color: black;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
   }
   .navbar>div>a:hover {
-    color: white;
+    color: blue;
     font-size: 20px;
   }
 
@@ -30,8 +30,6 @@
     }
     .navbar>div>a{
        display: block;
-       color: black;
-       text-align: center; 
        padding: 12px 14px;  
     }
     .navbar{

@@ -11,7 +11,7 @@ function Navbar() {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#footer">Contact</a>
-            <a class="navbar-link" href="https://drive.google.com/file/d/1IySp6jwx3qv_eL3MzYvN-x1lwUNzY9Gz/view?usp=share_link">Resume</a>
+            <a class="navbar-link" href="https://drive.google.com/uc?export=download&id=1BiWFYySamZukJAk_cZrY26f4h8Hs2Ncr">Resume</a>
           </div>
         </div>
     )
