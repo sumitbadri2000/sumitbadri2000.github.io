@@ -5,11 +5,12 @@ import RightNav from "./RightNav";
 const StyledBurger = styled.div`
   width: auto;
   height: 2rem;
-  position: fixed;
+  position: absolute;
   top: 15px;
-  right: 20px;
+  right: 30px;
   z-index: 20;
   display: none;
+  font-family: Arial, Helvetica, sans-serif;
   @media (max-width: 780px) {
     display: flex;
     justify-content: space-around;
@@ -34,8 +35,8 @@ const StyledBurger = styled.div`
     }
   }
   @media (max-width: 380px) {
-    div{
-      height:0.18rem
+    div {
+      height: 0.18rem;
     }
   }
 `;

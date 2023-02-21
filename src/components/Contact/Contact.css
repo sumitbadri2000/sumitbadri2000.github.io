@@ -1,0 +1,53 @@
+#footer {
+  text-align: center;
+  background-color: black;
+  padding: 90px 0px 80px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.line {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contact_me > p{
+  color: blue;
+  line-height: 30px;
+}
+.flexlink {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin: auto;
+}
+
+.f {
+  width: 300%;
+  height: 120%;
+}
+
+.f:hover { 
+  color: blue;
+}
+
+@media (max-width: 380px) {
+  .flexlink {
+    gap: 50px;
+  }
+
+  .contact_me > p {
+    font-size: 15px;
+  }
+
+  .f {
+    width: 200%;
+    height: 120%;
+  }
+}

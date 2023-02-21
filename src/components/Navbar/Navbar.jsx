@@ -3,16 +3,17 @@ import Burger from "./Burger";
 
 const Nav = styled.nav`
   font-family: Arial, Helvetica, sans-serif;
-  height: 55px;
-  font-size:18px;
-  border-bottom: 1px solid #f1f1f1;
-  padding: 0 40px;
+  height: 52px;
+  text-align:center;
+  width: 100%;
+  font-size: 18px;
+  position: fixed;
   display: flex;
-  color:white;
+  color: white;
   justify-content: space-between;
-  background-color:#808080;
+  background-color: blue;
   .logo {
-    padding: 20px 0;
+    padding: 20px 15px;
   }
 `;
 

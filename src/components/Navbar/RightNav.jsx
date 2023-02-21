@@ -5,11 +5,12 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+  font-family: Arial, Helvetica, sans-serif;
   li {
     padding: 15px 15px;
-    color:white;
+    color: white;
   }
-  a{
+  a {
     text-decoration: none;
   }
   a:hover {

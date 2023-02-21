@@ -1,21 +1,23 @@
 .about{
-  background-color:#808080;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 80px;
-  color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 .text{
   font-size: 30px;
-  margin-bottom:50px ;
+  margin-bottom:55px ;
+  color: black;
 }
 .flex{
   display: flex;
   width: 70%;
   margin: auto;
   gap: 30px;
+  padding: 40px;
   justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .aheading{
@@ -23,7 +25,7 @@
 }
 
 .add{
-  margin-top: 45px;
+  margin-top: 55px;
 }
 
   .aheadings{
@@ -34,10 +36,10 @@
   .flex>div>img{
     width: 300px; 
     height: 300px;
-    border-radius:50%;
+    border-radius:10%;
   }
 
-  @media only screen and (max-width:900px) {
+  @media (max-width:900px) {
     .flex{
       display: flex;
       margin: auto;
@@ -63,12 +65,15 @@
   }
   
     .aheadings{
-      font-size: 15px;
+      font-size: 16px;
       padding: 5px 0 10px 0;
+    }
+    .add{
+      margin-top: 5px;
     }
   }
 
-  @media only screen and (max-width:380px) {
+  @media (max-width:380px) {
     .flex{
       width: 60%;
       margin: auto;
@@ -84,11 +89,12 @@
   }
 
   .aheading{
-    font-size: 10px;
+    font-size: 16px;
+    margin: 2px 0;
   }
   
     .aheadings{
-      font-size: 12px;
+      font-size: 15px;
       padding: 5px 0 10px 0;
     }
   }

@@ -4,7 +4,7 @@ function Github() {
   return (
     <div className="github">
       <div className="fdiv">
-        <h1 className="center">GitHub Stats</h1>
+        <h1 className="center">GITHUB STATS</h1>
         <div className="stats">
           <a href="https://github.com/sumitbadri2000" target="black">
             <img
@@ -16,7 +16,7 @@ function Github() {
         </div>
       </div>
       <div className="sdiv">
-        <h1 className="center">GitHub Calendar</h1>
+        <h1 className="center">GITHUB CALENDAR</h1>
         <GitHubCalendar
           className="GitHubCalendar"
           username="sumitbadri2000"

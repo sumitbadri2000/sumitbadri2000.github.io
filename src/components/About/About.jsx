@@ -10,9 +10,9 @@ function About(){
             </div>
             <div>
               <p className="aheadings add">Hello, Everyone </p>
-              <h1 className="aheading">I am Sumit Badri,<br />
+              <h1 className="aheading">I am<span> Sumit Badri</span>, 
                 Full Stack Web Developer</h1>
-              <p className="aheadings">And I am student of Masai School. I am positive, enthusiastic and competent Web Developer has built up a diverse range of skills, qualities and attributes that guarantee I will perform highly in this role.</p>
+              <p className="aheadings">Passionate Full Stack Web Developer with a specialization in MERN stack. Skilled, collaborative and attentive developer with a drive to develop the most relevant products. Always looking forward to learning something new to strengthen skills learned.</p>
             </div>
           </div>
         </div>
