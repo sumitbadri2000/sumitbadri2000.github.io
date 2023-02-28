@@ -47,7 +47,12 @@
 }
 
 .add {
-  margin-bottom: 2px;
+  margin-top: 18px;
+}
+
+.tech .color{
+  color: yellow;
+  font-size: 16px;
 }
 
 .tech > p {
@@ -160,6 +165,9 @@ button {
     background-color: rgb(150, 150, 203);
     font-size: 20px;
   }
+  .tech .color{
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 380px) {
@@ -189,6 +197,10 @@ button {
 
   .website {
     gap: 10px;
+  }
+
+  .tech .color{
+    font-size: 12px;
   }
 
   .link {
