@@ -2,13 +2,40 @@ import "./Project.css";
 import nykaa from "../../logo/nykaa.png";
 import bepretty from "../../logo/bepretty.png";
 import crew from "../../logo/crew.png";
-import indeed from "../../logo/indeed.png";
+import fabulous from "../../logo/fabulous.png";
 
 function Project() {
   return (
     <div id="projects">
       <h1 className="project_h1">PROJECTS</h1>
       <div id="project">
+      <div className="flexs">
+          <div>
+            <img className="img" src={fabulous} alt="fins" />
+          </div>
+          <div className="info">
+            <h3 className="headings add">Fabulous Find</h3>
+            <p className="headings">
+            One brand, many companies, and many people that’s us in a nutshell. Spread all over the world, we have a passion for home furnishing and an inspiring shared vision. 
+            </p>
+            <div className="tech">
+              <p>Tech Stack - </p>
+              <p className="color">HTML | CSS | JavaScript | React | Chakra-UI</p>
+            </div>
+            <div className="website">
+              <a
+                href="https://rococo-sawine-4218f1.netlify.app"
+                target="blank">
+                <button className="link">Deploy Link</button>
+              </a>
+              <a
+                href="https://github.com/sumitbadri2000/ikea-clone"
+                target="blank">
+                <button className="link">Github</button>
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="flexs">
           <div>
             <img className="img" src={nykaa} alt="nykaa" />
@@ -67,37 +94,6 @@ function Project() {
             </div>
           </div>
         </div>
-
-        <div className="flexs">
-          <div>
-            <img className="img" src={indeed} alt="indeed" />
-          </div>
-          <div className="info">
-            <h3 className="headings add">Indeed</h3>
-            <p className="headings">
-              Indeed is an American worldwide employment website for job
-              listings launched in November 2004. This is My first project by
-              using HTML, CSS.
-            </p>
-            <div className="tech">
-              <p>Tech Stack - </p>
-            <p className="color">HTML | CSS</p>
-            </div>
-            <div className="website">
-              <a
-                href="https://keen-blancmange-380824.netlify.app/"
-                target="blank">
-                <button className="link">Deploy Link</button>
-              </a>
-              <a
-                href="https://github.com/sumitbadri2000/determined-brass-2562"
-                target="blank">
-                <button className="link">Github</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
         <div className="flexs">
           <div>
             <img className="img" src={crew} alt="crew" />
@@ -111,7 +107,7 @@ function Project() {
             </p>
             <div className="tech">
               <p>Tech Stack - </p>
-              <p className="color">HTML |CSS |JavaScript |React |Chakra-UI</p>
+              <p className="color">HTML | CSS | JavaScript | React | Chakra-UI</p>
             </div>
             <div className="website">
               <a href="https://cute-elf-8e4002.netlify.app/" target="blank">
