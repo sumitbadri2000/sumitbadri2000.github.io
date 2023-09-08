@@ -9,23 +9,25 @@ function Project() {
     <div id="projects">
       <h1 className="project_h1">PROJECTS</h1>
       <div id="project">
-      <div className="flexs">
+        <div className="flexs">
           <div>
             <img className="img" src={fabulous} alt="fins" />
           </div>
           <div className="info">
             <h3 className="headings add">Fabulous Find</h3>
             <p className="headings">
-            One brand, many companies, and many people that’s us in a nutshell. Spread all over the world, we have a passion for home furnishing and an inspiring shared vision. 
+              One brand, many companies, and many people that’s us in a
+              nutshell. Spread all over the world, we have a passion for home
+              furnishing and an inspiring shared vision.
             </p>
             <div className="tech">
               <p>Tech Stack - </p>
-              <p className="color">HTML | CSS | JavaScript | React | Chakra-UI</p>
+              <p className="color">
+                HTML | CSS | JavaScript | React | Chakra-UI
+              </p>
             </div>
             <div className="website">
-              <a
-                href="https://rococo-sawine-4218f1.netlify.app"
-                target="blank">
+              <a href="https://rococo-sawine-4218f1.netlify.app" target="blank">
                 <button className="link">Deploy Link</button>
               </a>
               <a
@@ -53,7 +55,7 @@ function Project() {
             </div>
             <div className="website">
               <a
-                href="https://sensational-torrone-ff2b20.netlify.app/"
+                href="https://64fae54950aa4054c3ad9df2--funny-zabaione-58029e.netlify.app/"
                 target="blank">
                 <button className="link">Deploy Link</button>
               </a>
@@ -107,7 +109,9 @@ function Project() {
             </p>
             <div className="tech">
               <p>Tech Stack - </p>
-              <p className="color">HTML | CSS | JavaScript | React | Chakra-UI</p>
+              <p className="color">
+                HTML | CSS | JavaScript | React | Chakra-UI
+              </p>
             </div>
             <div className="website">
               <a href="https://cute-elf-8e4002.netlify.app/" target="blank">
