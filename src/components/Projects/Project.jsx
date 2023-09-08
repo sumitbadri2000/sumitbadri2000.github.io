@@ -54,9 +54,7 @@ function Project() {
               <p className="color">HTML | CSS | JavaScript</p>
             </div>
             <div className="website">
-              <a
-                href="https://64fae54950aa4054c3ad9df2--funny-zabaione-58029e.netlify.app/"
-                target="blank">
+              <a href="https://nykac.vercel.app/" target="blank">
                 <button className="link">Deploy Link</button>
               </a>
               <a
