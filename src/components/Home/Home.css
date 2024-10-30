@@ -1,94 +1,112 @@
-#home {
-  width: 100%;
-  height: 70vh;
-  background-image: url("https://www.attributionapp.com/wp-content/uploads/2020/05/devices-725x318.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.home .size {
-  width: 60%;
-  margin: auto;
-  padding-top: 180px;
-  
-}
-
 .home {
-  padding-bottom: 110px;
-  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home img {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.home h1 {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-span {
-  color: blue;
-}
-
-.home .size .text-1 {
-  font-size: 20px;
-  margin-top: 20px;
-}
-
-.home .size .text-2 {
-  font-size: 50px;
+  width: 70%;
+  font-size: 30px;
   font-weight: 600;
 }
 
-.home .size .text-3 {
-  font-size: 40px;
+.home h1 span {
+  background: linear-gradient(267deg, #ff9a9e 0.36%, #3a1c71 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.resume {
+.home p {
+  width: 50%;
+  text-align: center;
   font-size: 20px;
+  /* line-height: 40px; */
+}
+
+.home-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.home-connect {
+  padding: 20px 30px;
   border-radius: 50px;
-  padding: 25px 20px;
-  background-color: rgb(23, 135, 246);
+  background: linear-gradient(267deg, #ff9a9e 0.36%, #3a1c71 102.06%);
   cursor: pointer;
-  border: none;
-  margin-top: 10px;
-  color: white;
+  font-size: 18px;
 }
 
-@media (max-width: 900px) {
-  .home .size .text-2 {
-    font-size: 45px;
+.home-resume {
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.home-connect:hover {
+  border: 2px solid white;
+}
+
+.home-resume:hover {
+  border-color: #3a1c71;
+}
+
+@media (max-width: 768px) {
+  .home {
+    gap: 10px;
   }
-  .home .size .text-3 {
-    font-size: 30px;
+  .home img {
+    margin-top: 60px;
+    width: 200px;
   }
 
-  .resume {
+  .home h1 {
+    /* margin-top: 50px; */
+    width: 90%;
+    font-size: 50px;
+  }
+
+  .home p {
+    width: 60%;
     font-size: 16px;
-    padding: 20px 20px;
+    line-height: 32px;
+    margin: 10px 0px;
   }
-}
 
-@media (max-width: 500px) {
-  .size {
-    line-height: 30px;
+  .home h1 {
+    font-size: 24px;
   }
-  .home .size .text-2 {
-    font-size: 20px;
-  }
-  .home .size .text-3 {
-    font-size: 22px;
-  }
-}
 
-@media (max-width: 300px) {
-  .home .size .text-1 {
-    font-size: 10px;
-  }
-  .home .size .text-2 {
+  .home-action {
+    gap: 14px;
     font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 50px;
   }
-  .home .size .text-3 {
+
+  .home-connect {
+    padding: 20px 25px;
+    border-radius: 40px;
     font-size: 12px;
   }
-  .resume {
+
+  .home-resume {
+    padding: 20px 25px;
+    border-radius: 40px;
     font-size: 12px;
-    padding: 18px 18px;
   }
 }

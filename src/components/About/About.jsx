@@ -1,31 +1,103 @@
+import React from "react";
 import "./About.css";
-
-function About() {
+import theme_pattern from "../../assets/theme_pattern.svg";
+import profile_img from "../../assets/about_profile.svg";
+const About = () => {
   return (
     <div id="about" className="about">
-      <h1 className="text">ABOUT ME</h1>
-      <div className="flex">
-        <div>
-          <img
-            src="https://avatars.githubusercontent.com/u/110050319?s=400&u=e65eff758ba23a83bc5dcc94bfe43c040d3a5704&v=4"
-            alt=""
-            srcSet
-          />
+      <div className="about-title">
+        <h1>About Me</h1>
+        <img src={theme_pattern} alt="" />
+      </div>
+      <div className="about-sections">
+        <div className="about-left">
+          <div className="about-para">
+            <p>
+              Hello Everyone, I am Sumit Badri, a Full Stack Web Developer
+              specializing in the MERN stack. Passionate about creating
+              impactful and user-centered applications
+            </p>
+            <p>
+              I bring a collaborative and detail-oriented approach to
+              development. Eager to keep learning and stay updated with new
+              technologies to enhance my skills and build relevant solutions.
+            </p>
+          </div>
+          <div className="about-skills" id="skill">
+            <div className="about-skill">
+              <p>HTML & CSS</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>JavaScript</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>React JS</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>React Native</p>
+              <hr style={{ width: "40%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>Node JS</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>MongoDB</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>Express JS</p>
+              <hr style={{ width: "60%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>Tailwind CSS</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>MUI</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>Chakra UI</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>BootStrap</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+          </div>
         </div>
-        <div>
-          <p className="aheadings add">Hello, Everyone </p>
-          <h1 className="aheading">
-            I am<span> Sumit Badri</span>, Full Stack Web Developer
-          </h1>
-          <p className="aheadings">
-            Passionate Full Stack Web Developer with a specialization in MERN
-            stack. Skilled, collaborative and attentive developer with a drive
-            to develop the most relevant products. Always looking forward to
-            learning something new to strengthen skills learned.
-          </p>
+        <div className="about-right">
+          <img src={profile_img} alt="" />
+        </div>
+      </div>
+      <div className="about-achievements">
+        <div className="about-achievement">
+          <h1>1+</h1>
+          <p>Years of Experience</p>
+        </div>
+
+        <hr />
+        <div className="about-achievement">
+          <h1>10+</h1>
+          <p>Working in Project</p>
         </div>
       </div>
     </div>
   );
-}
+};
+
 export default About;

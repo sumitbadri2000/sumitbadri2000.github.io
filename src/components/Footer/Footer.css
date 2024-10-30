@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5px 180px;
+}
+
+.footer hr {
+  border: none;
+  height: 3px;
+  background-image: linear-gradient(267deg, #ff9a9e 0.36%, #3a1c71 102.06%);
+}
+
+.footer p {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin: 5px 50px;
+  }
+
+  /* .footer p {
+    font-size: 10px;
+  } */
+}
