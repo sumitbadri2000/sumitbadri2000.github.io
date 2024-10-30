@@ -1,0 +1,66 @@
+.github {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0px 50px 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+  font-size: 30px;
+}
+
+.fdiv {
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+ 
+}
+.fdiv:hover {
+  width: 70%;
+}
+.contribution {
+  width: 60%;
+  margin: auto;
+}
+.stats {
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.sdiv {
+  width: 60%;
+  margin: auto;
+  margin-top: 60px;
+}
+.sdiv:hover {
+  width: 70%;
+}
+
+@media (max-width: 380px) {
+  .github {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .fdiv {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .stats {
+    width: 90%;
+    margin: auto;
+  }
+
+  .stats > img {
+    width: 15px;
+  }
+  .center {
+    font-size: 25px;
+  }
+}

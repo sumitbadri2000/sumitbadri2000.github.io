@@ -1,0 +1,148 @@
+.skill {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 90px;
+  color: white;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.skill_div {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.skill > div {
+  margin-top: 30px;
+}
+.skill > .icons > img {
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.skill > div > img:hover {
+  width: 95px;  
+  background-color: white;
+}
+.icons {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.tools_div {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.icon{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 30%;
+  margin: auto;
+}
+.skill > .icon > img {
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  .skill > .icons > img {
+    height: 90px;
+    width: 80px;
+    background-color: rgba(34, 32, 32, 0.723);
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 580px) {
+  .skill {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .skill > .icons > img {
+    height: 40px;
+    width: 40px;
+  }
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    margin: auto;
+    gap: 18px;
+  }
+  .icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    margin: auto;
+    gap: 18px;
+  }
+  .skill > .icon > img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .skill {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .skill > .icons > img {
+    height: 40px;
+    width: 40px;
+  }
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    margin: auto;
+    gap: 18px;
+  }
+  .icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    margin: auto;
+    gap: 18px;
+  }
+  .skill > .icon > img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .skill > div > img {
+    height: 20px;
+    width: 15px;
+  }
+
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    margin: auto;
+    gap: 18px;
+  }
+}
