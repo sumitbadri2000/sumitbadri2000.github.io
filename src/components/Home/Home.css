@@ -1,0 +1,94 @@
+#home {
+  width: 100%;
+  height: 70vh;
+  background-image: url("https://www.attributionapp.com/wp-content/uploads/2020/05/devices-725x318.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home .size {
+  width: 60%;
+  margin: auto;
+  padding-top: 180px;
+  
+}
+
+.home {
+  padding-bottom: 110px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  color: blue;
+}
+
+.home .size .text-1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.home .size .text-2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.home .size .text-3 {
+  font-size: 40px;
+}
+
+.resume {
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 25px 20px;
+  background-color: rgb(23, 135, 246);
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .home .size .text-2 {
+    font-size: 45px;
+  }
+  .home .size .text-3 {
+    font-size: 30px;
+  }
+
+  .resume {
+    font-size: 16px;
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .size {
+    line-height: 30px;
+  }
+  .home .size .text-2 {
+    font-size: 20px;
+  }
+  .home .size .text-3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 300px) {
+  .home .size .text-1 {
+    font-size: 10px;
+  }
+  .home .size .text-2 {
+    font-size: 14px;
+  }
+  .home .size .text-3 {
+    font-size: 12px;
+  }
+  .resume {
+    font-size: 12px;
+    padding: 18px 18px;
+  }
+}
